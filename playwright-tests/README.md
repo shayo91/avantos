@@ -5,14 +5,29 @@ This test suite provides comprehensive end-to-end testing for the React graph vi
 ## 🚀 How to Run Tests
 
 ### Prerequisites
-Before running tests, you need to start both the application and the mock server:
+Before running tests, you need to install dependencies, Playwright browsers, and start both the application and the mock server:
 
-1. **Start the React application in development mode:**
+1. **Install project dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Install frontend server dependencies:**
+   ```bash
+   cd frontendchallengeserver && npm install && cd ..
+   ```
+
+3. **Install Playwright browsers:**
+   ```bash
+   npx playwright install
+   ```
+
+4. **Start the React application in development mode:**
    ```bash
    npm run dev
    ```
 
-2. **Start the frontend challenge server (mock API):**
+5. **Start the frontend challenge server (mock API):**
    ```bash
    npm run mock-server
    ```
